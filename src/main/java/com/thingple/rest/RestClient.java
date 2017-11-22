@@ -9,7 +9,7 @@ public class RestClient {
 
     private RestTemplate template;
 
-    public RestClient() {
+    RestClient() {
         this.template = new RestTemplate();
     }
 
